@@ -9,7 +9,6 @@ import static org.assertj.core.api.Assertions.withPrecision;
 class ConverterTest {
 
     @Test
-
     void whenConvert140RblThen2Euro() {
         float input = 140;
         float expected = 2;
@@ -19,7 +18,6 @@ class ConverterTest {
     }
 
     @Test
-
     void whenConvert180RblThen3Dollar() {
         float input = 180;
         float expected = 3;
