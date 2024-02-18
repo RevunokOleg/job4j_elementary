@@ -42,7 +42,7 @@ class PointTest {
     }
 
     @Test
-    void when153to264then1Dot73() {
+    void when111to555then6Dot92() {
         double expected = 6.92;
         Point c = new Point(1, 1, 1);
         Point d = new Point(5, 5, 5);
@@ -51,7 +51,7 @@ class PointTest {
     }
 
     @Test
-    void whenMius2Minus2Minus2to423then8Dot77() {
+    void whenMinus2Minus2Minus2to423then8Dot77() {
         double expected = 8.77;
         Point c = new Point(-2, -2, -2);
         Point d = new Point(4, 2, 3);
